@@ -4,7 +4,25 @@ body {
 }
 
 .input{
-    width: 30%;
+    width: 70%;
+}
+
+@media only screen and (min-width: 800px){
+    [class*="input"]{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    [class*="input"]{
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    [class*="input"]{
+        width: 30%;
+    }
 }
 
 .custom-select {
