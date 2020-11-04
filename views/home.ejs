@@ -1,0 +1,40 @@
+<%- include('partials/header'); -%>
+
+<nav id="mainNavbar" class="navbar navbar-expand-md navbar-dark py-0 fixed-top">
+    <a class="navbar-brand" href="#">AHAAR</a>
+    <button class="navbar-toggler mt-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"  aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+            </li>
+        </ul>
+      
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="/donate" class="nav-link btn btn-outline-light btn-lg mt-1 px-3 py-2 rounded-pill">DONATE</a>
+            </li>
+        </ul>
+      
+    </div>
+</nav>
+
+<section class="container-fluid px-0">
+    <div class="row align-items-center overlay mx-0">
+        <div class="col-md-6 text-center mt-5 mb-5">
+            <h2 class="display-3 mt-5">Ahaar : Food For The Poor</h2>
+            <a href="/donate"><button class="btn btn-outline-dark btn-lg rounded-pill mt-5" href="/donate" >DONATE</button></a>
+        </div>
+        <div class="col-md-6 px-0" style="height:100% ">
+            <img class="img-fluid" style="height: 100%; object-fit: fill; " " src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="">
+        </div> 
+    </div>
+</section>
+
+<%- include('partials/footer'); -%>

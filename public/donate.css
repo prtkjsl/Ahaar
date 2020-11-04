@@ -1,0 +1,84 @@
+body {
+    background: #f5cab0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input{
+    width: 30%;
+}
+
+.custom-select {
+    height: 60px;
+    font-size: 25px;
+}
+
+option{
+    background-color:#e8b5a7;
+}
+
+.form-control{
+    height: 60px;
+    font-size: 25px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+h1{
+    color:#b80757;
+}
+
+.btn{
+    border-width: 2px;
+    font-weight: 600;
+}
+
+span{
+    font-size: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#result{
+    font-size: 25px;
+}
+
+#all{
+    font-size: 25px;
+}
+
+.table{
+    width: 70%;
+    text-align: center;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+}
+#mainNavbar .nav-link{
+    color: white
+}
+
+#mainNavbar .nav-link:hover{
+    color:#b80757
+}
+
+#mainNavbar .navbar-brand{
+    color: #b80757;
+    font-size: 1.5rem;
+}
+
+#mainNavbar .navbar-toggler{
+    border-color: white;
+}

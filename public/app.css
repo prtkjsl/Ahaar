@@ -1,0 +1,35 @@
+body {
+    background: #f5cab0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+}
+#mainNavbar .nav-link{
+    color: white
+}
+
+#mainNavbar .nav-link:hover{
+    color:#b80757
+}
+
+#mainNavbar .navbar-brand{
+    color: #b80757;
+    font-size: 1.5rem;
+}
+
+#mainNavbar .navbar-toggler{
+    border-color: white;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+html, body {
+    height: 100%;
+}
+
+
