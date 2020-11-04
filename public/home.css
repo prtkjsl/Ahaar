@@ -28,6 +28,16 @@ body {
     height: 100%;
     position: fixed;
 }
+
+.clicked{
+	background-color: #f5cab0;
+}
+
+.margin{
+	margin-top: 150px;
+	transition: margin 700ms;
+}
+
 html, body {
     height: 100%;
 }
