@@ -4,12 +4,12 @@ $("#find").click(function(){
         $("table").html("");
         $("#head1").html("");
         $("#head2").html("");
-        $("span").html("InValid Input!");
+        $("#invalid").html("InValid Input!");
         return;
     }
     var r = recommend($("select").val(), Number($("#quantity").val()));
     $("table").html("");
-    $("span").html("");
+    $("#invalid").html("");
 
     $("#head1").html("<u>Recommended NGO</u>");
 
